@@ -12,6 +12,8 @@ docs:
 	cd src; $(JDOC) -private module-info.java org/util/file/*.java -d ../docs
 
 clean:
-	rm -r docs
 	rm $(shell find -name '*.class')
 	rm *.jar
+
+clean-docs:
+	rm -r docs
