@@ -10,3 +10,5 @@ For using the API, you must first build the library. After that, you must implem
 jdk 17 or higher or similar,
 jre 17 or higher or similar,
 gnu make
+# Bugs or similar
+If you find a bug, open a issue, or better make a pull request with a patch for fixing it.
